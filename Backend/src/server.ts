@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
-import express, { Express } from "express";
-import cors from "cors"
+import express, { Express, Request, Response } from "express";
+import cors from "cors";
 import notes from "./Routes/Notes";
 import rateLimiter from "./Middlewares/RateLimiter";
 import { asyncMiddleware } from "./utils/asyncMiddleware";

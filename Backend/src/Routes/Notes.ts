@@ -6,7 +6,7 @@ import {
   updateNote,
 } from "../Controllers/Notes";
 
-const express = require("express");
+import express from "express";
 const router = express.Router();
 
 router.get("/", getNote);

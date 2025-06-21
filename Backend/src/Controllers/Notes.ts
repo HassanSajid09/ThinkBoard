@@ -1,4 +1,3 @@
-import { Request, Response } from "express";
 import { Note } from "../Models/Notes";
 
 export const getNote = async (req: any, res: any) => {
@@ -11,7 +10,7 @@ export const getNote = async (req: any, res: any) => {
   }
 };
 
-export const getNoteById = async (req: Request, res: Response) => {
+export const getNoteById = async (req: any, res: any) => {
   try {
     const note = await Note.findById(req.params.id);
     if (!note) return res.status(404).json({ message: "Note not found" });
