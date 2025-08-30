@@ -29,3 +29,7 @@ Other: REST APIs, Local & Server-side persistence
 <img width="1919" height="924" alt="image" src="https://github.com/user-attachments/assets/9fa476f1-7f59-4037-b8ea-bc6a27b7da8d" />
 <img width="1919" height="927" alt="image" src="https://github.com/user-attachments/assets/c349e9f7-fa68-46b2-8e70-b76d191e73e1" />
 
+📄 Note
+
+This project was created for learning purposes only, not intended for production use.
+
